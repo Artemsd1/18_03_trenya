@@ -3,7 +3,7 @@
 #include <vector>
 #include <cstring>
 using namespace std;
-
+//First commit in main
 const int MAXN = 100; // максимальное количество вершин в графе
 vector<int> graph[MAXN]; // список смежности для графа
 bool visited[MAXN]; // флаги посещения вершин
@@ -29,7 +29,7 @@ void bfs(int start) {
         }
     }
 }
-
+//First commit in my branch
 int main() {
     int n, m;
     cin >> n >> m;
@@ -43,7 +43,7 @@ int main() {
 
     int start, end;
     cin >> start >> end;
-
+//Second commit in main
     memset(visited, false, sizeof(visited));
     memset(dist, -1, sizeof(dist));
 
@@ -54,6 +54,6 @@ int main() {
     } else {
         cout << "Кратчайший путь из " << start << " в " << end << " равен " << dist[end] << endl;
     }
-
+//Second commit in my branch
     return 0;
 }

@@ -12,7 +12,7 @@ int main() {
       break;
     }
   }
-  
+  //first comm eliseeva
   if(flag == 0) {
     cout << n << " is a prime number" << endl;
   }
@@ -20,4 +20,5 @@ int main() {
     cout << n << " is not a prime number" << endl;
   }
   return 0;
+//second commit eliseeva
 }

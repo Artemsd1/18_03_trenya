@@ -20,6 +20,7 @@ int main() {
         cout << "x2 = " << x2 << endl;
     } else if (discriminant == 0) {
         x1 = (-b) / (2 * a);
+        //Cout function
         cout << "Roots are real and same." << endl;
         cout << "x1 = x2 =" << x1 << endl;
     } else {

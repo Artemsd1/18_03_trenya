@@ -3,7 +3,7 @@
 #include <algorithm>
 using namespace std;
 
-string longest_common_substring(string str1, string str2) {
+string longest_common_substring(string str1, string str2) { // First commit
     int n1 = str1.length();
     int n2 = str2.length();
 
@@ -22,7 +22,7 @@ string longest_common_substring(string str1, string str2) {
                     end_pos = i;
                 }
             } else {
-                dp[i][j] = 0;
+                dp[i][j] = 0; // Second commit to branch
             }
         }
     }

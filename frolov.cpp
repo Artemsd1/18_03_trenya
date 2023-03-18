@@ -2,7 +2,7 @@
 using namespace std;
 
 int main() {
-  double num1, num2, result;
+  double num1, num2, result; //Комментарий 1
   char op;
   cout << "Enter first number, operator, second number: ";
   cin >> num1 >> op >> num2;
@@ -29,6 +29,6 @@ int main() {
       return 1;
   }
   
-  cout << num1 << " " << op << " " << num2 << " = " << result << endl;
+  cout << num1 << " " << op << " " << num2 << " = " << result << endl; //Это вывод реузльтата в консоль
   return 0;
 }

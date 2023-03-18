@@ -1,6 +1,8 @@
 #include <iostream>
 #include <cmath>
 
+//First commit
+
 using namespace std;
 
 double f(double x) // Функция для вычисления значения уравнения
@@ -14,6 +16,8 @@ double df(double x) // Функция для вычисления значени
 {
     return 2 * x;
 }
+
+//Three commit
 
 int main()
 {

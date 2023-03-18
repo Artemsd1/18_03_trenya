@@ -21,7 +21,7 @@ int main() {
     int min, max;
 
     findMinMax(arr, size, min, max);
-
+// commit main 2
     cout << "Minimum element: " << min << endl;
     cout << "Maximum element: " << max << endl;
 

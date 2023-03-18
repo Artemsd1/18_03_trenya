@@ -2,6 +2,7 @@
 using namespace std;
 
 int binarySearch(int arr[], int low, int high, int x) {
+    // commit velikanov 1
     if (high >= low) {
         int mid = low + (high - low) / 2;
 

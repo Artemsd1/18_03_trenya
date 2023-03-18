@@ -9,6 +9,7 @@ int main() {
     cout << "Enter coefficients a, b and c: ";
     cin >> a >> b >> c;
 
+    //Discriminant math
     discriminant = b * b - 4 * a * c;
 
     if (discriminant > 0) {

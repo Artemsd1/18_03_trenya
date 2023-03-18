@@ -3,7 +3,7 @@ using namespace std;
 
 int main() {
   double num1, num2, result; //Комментарий 1
-  char op;
+  char op;  //Комментарий 2
   cout << "Enter first number, operator, second number: ";
   cin >> num1 >> op >> num2;
 
@@ -30,5 +30,5 @@ int main() {
   }
   
   cout << num1 << " " << op << " " << num2 << " = " << result << endl; //Это вывод реузльтата в консоль
-  return 0;
+  return 0; //Это ретурн
 }

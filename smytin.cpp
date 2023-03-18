@@ -4,11 +4,11 @@
 using namespace std;
 
 string longest_common_substring(string str1, string str2) {
-    int n1 = str1.length();
+    int n1 = str1.length(); // First commit main
     int n2 = str2.length();
 
     int dp[n1+1][n2+1];
-    int max_length = 0;
+    int max_length = 0; // Second commit main
     int end_pos = 0;
 
     for (int i = 0; i <= n1; i++) {

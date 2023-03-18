@@ -1,6 +1,8 @@
 #include <iostream>
 #include <cmath>
 
+//First commit
+
 using namespace std;
 
 double f(double x) // Функция для вычисления значения уравнения
@@ -8,10 +10,14 @@ double f(double x) // Функция для вычисления значени�
     return x * x - 4;
 }
 
+//Second commit
+
 double df(double x) // Функция для вычисления значения производной
 {
     return 2 * x;
 }
+
+//Three commit
 
 int main()
 {
@@ -29,3 +35,5 @@ int main()
 
     return 0;
 }
+
+//four commit

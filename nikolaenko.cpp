@@ -2,7 +2,7 @@
 #include <cmath>
 /*Check 1st commit to main*/
 using namespace std;
-
+/*Check 2 to my own Nikolaenko branch*/
 int main() {
     double a, b, c, discriminant, root1, root2;
     cout << "Enter coefficients a, b and c: ";
@@ -25,6 +25,6 @@ int main() {
         cout << "Root 1 = (-" << b << " + i" << sqrt(-discriminant) << ") / " << 2*a << endl;
         cout << "Root 2 = (-" << b << " - i" << sqrt(-discriminant) << ") / " << 2*a << endl;
     }
-
+/*Check 2 to my own Nikolaenko branch*/
     return 0;
 }

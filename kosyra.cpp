@@ -6,6 +6,7 @@
 using namespace std;
 
 double calculate(double a, double b, char op) {
+	//first commit in main
     switch(op) {
         case '+':
             return a + b;
@@ -20,9 +21,11 @@ double calculate(double a, double b, char op) {
         default:
             return 0;
     }
+	//second commit in main
 }
 
 int main() {
+	//first commit in kosyra
     stack<double> s;
     string expr;
     getline(cin, expr);
@@ -37,3 +40,4 @@ int main() {
             i--;
             s.push(num);
         } else if (expr[i] == '+' || expr[i] == '-' || expr[i] == '*' || expr[i] == '/' || expr[i] == '^')
+	//second commit in kosyra

@@ -12,7 +12,7 @@ int main() {
       break;
     }
   }
-  
+  //first comm eliseeva
   if(flag == 0) {
     cout << n << " is a prime number" << endl;
   }

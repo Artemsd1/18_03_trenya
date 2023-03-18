@@ -1,7 +1,7 @@
-#include <iostream>
 #include <string> // first commit in sedov
-#include <cmath>
 using namespace std; // second commit in sedov
+#include <iostream> //first commit in main
+#include <cmath> // second commit in main
 
 int main()
 {

@@ -24,6 +24,6 @@ int main() {
 
     cout << "Minimum element: " << min << endl;
     cout << "Maximum element: " << max << endl;
-
+// git commit branch 2
     return 0;
 }
